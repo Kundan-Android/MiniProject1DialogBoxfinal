@@ -1,0 +1,178 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    tools:context="com.example.dell.miniproject.CourseDeatils">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/logo"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".70"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="2"
+            android:textSize="26sp"
+            android:layout_marginTop="4dp"
+            android:text="No"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:id="@+id/noEdittext"
+            android:background="@drawable/border"
+            android:layout_marginTop="4dp"
+            android:layout_height="40dp"
+            android:hint="Enter Sno."/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.70"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:textSize="26sp"
+            android:text="Name"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:id="@+id/nameEdittext"
+            android:background="@drawable/border"
+            android:layout_height="40dp"
+            android:hint="Enter Name"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.70"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:textSize="26sp"
+            android:text="Mobile"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:id="@+id/mobileEdittext"
+            android:background="@drawable/border"
+            android:layout_height="40dp"
+            android:hint="Enter Mobile Number"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.70"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:textSize="26sp"
+            android:text="Email ID"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:id="@+id/emailEdittext"
+            android:background="@drawable/border"
+            android:layout_height="40dp"
+            android:hint="Enter Email Id."/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".70"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="2"
+            android:textSize="26sp"
+            android:text="Subject"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="6"
+            android:id="@+id/subEdittext"
+            android:background="@drawable/border"
+            android:layout_height="40dp"
+            android:hint="Enter Subject"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.70"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="4"
+            android:id="@+id/dateButton"
+            android:background="@drawable/border"
+            android:textSize="26sp"
+            android:textAllCaps="false"
+            android:text="Choose Date"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:hint="Date"
+            android:id="@+id/textviewDatepicked1"
+            android:textSize="16sp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.70"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="4"
+            android:layout_marginLeft="10dp"
+            android:background="#88898A"
+            android:textSize="26sp"
+            android:id="@+id/saveButton"
+            android:text="Save"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="50dp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:background="#88898A"
+            android:text="Back"
+            android:layout_marginRight="10dp"
+            android:textSize="26sp"
+            android:id="@+id/backButton"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
